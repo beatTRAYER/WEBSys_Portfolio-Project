@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- link bootstrap vendors -->
+    <link rel="stylesheet" href="icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="images/logo_drive_2020q4_color_1x_web_48dp.png">
+    <link rel="stylesheet" href="aos/aos.css">
+
+    <!-- favicon -->
+<link rel="icon" href="Images/img3.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!-- Link google fonts -->
+
+</head>
+<body>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const header = document.getElementById('header');
+        const toggleButton = document.querySelector('.toggle-nav');
+    
+        toggleButton.addEventListener('click', () => {
+            header.classList.toggle('minimized');
+        });
+    });
+    </script>
+    <header id="header" class="header bg-black d-flex flex-column">
+        <div class="profile-img">
+            <img src="Images/img3.jpg" alt="" class="Img-fluid rounded-circle">
+            
+        </div>
+        <a href="#" class="logo d-flex align-items-center justify-content-circle">
+            <h1 class="name text-center">Selwyn Joe L. Fakey</h1>
+        </a>
+        <!-- social links -->
+        <div class="social-links center">
+          <a href="#" class="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="Twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="Linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="Instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+
+        
+        <!-- navbar begin -->
+<nav id="navmenu" class="navmenu">
+    <ul class="nav nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home"><i class="bi bi-house"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About Me"><i class="bi bi-file-person"></i>About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Resume"><i class="bi bi-file-richtext"></i>Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio"><i class="bi bi-file-image"></i>Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Service"><i class="bi bi-server" ></i>Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-card-list" ></i>
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Contact"><i class="bi bi-telephone"></i> Contact</a>
+          </li>
+        </ul>
+  </nav>
+  <!-- End -->
+    </header>
+
+  <!--Home Section-->
+<section id="Home" class="hero bg-primary text-white text-center vh-100 d-flex align-items-center">
+  <div class="container text-center">
+    <!-- Image Container -->
+    <div class="image-container mt-4 mb-4">
+      <img src="Images/img2.jpg" alt="Joe L. Fakey" class="img-fluid mx-auto d-block" style="max-width: 30%; height: 500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+    </div>
+    <!-- Heading and Description -->
+    <h1 class="display-4 mb-3">Hello, Selwyn Joe L. Fakey here!!!</h1>
+    <p class="lead mb-4">Currently Student | Future Designer | And many more</p>
+    <!-- Skill Bar -->
+    <div class="skill-bar mt-5">
+      <label for="js" class="d-block text-left font-weight-bold"></label>
+      <div class="bar">
+        <div class="progress js" data-progress="100"></div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  
+    <script src="script.js"></script>
+      </div>
+  </section>
+  <br>
+    <!--  -->
+
+<!-- About Me Section -->
+<section id="About Me" class="py-5 bg-light">
+  <div class="container text-center">
+    <section class="about">
+      <h1><strong>ABOUT ME</strong></h1>
+      <div id="introduction" class="section">
+        <h2>I'm <strong>Selwyn Fakey</strong> Programmer / WEB Developer</h2>
+          <p>Hello, my name is Selwyn Joe L. Fakey, and I am a third-year IT student passionate about web development. My goal is to become a professional who designs, 
+            tests, builds, and maintains systems and applications. By mastering foundational programming languages, I am actively engaging with the practical aspects of 
+            being an IT student and bringing my projects to life. My journey has allowed me to explore and appreciate the many technological advancements in this field,
+            further fueling my enthusiasm for web development.</p>
+      </div>
+      
+      <div class="section">
+        <h3><strong>What I Do?</strong></h3> 
+    <!-- Developer Section -->
+      <table class="service-table">
+        <tr>
+          <td class="service-image">
+            <img src="Images/webpic.jpg" alt="WEB Developer">
+          </td>
+          <td class="service-description">
+            <h5 class="service-title">WEB Developer</h5> 
+              <p>As a Web Developer, I specialize in creating new web applications and enhancing existing ones. I design and write the code that powers everything from websites 
+                to web-based applications. Proficient in various programming languages such as JavaScript, HTML, and CSS, as well as frameworks like React and Angular, I strive to 
+                develop solutions that meet user needs while ensuring optimal performance and functionality. My focus is on honing my problem-solving skills, collaborating effectively 
+                with teams, contributing to open-source projects, and continuously learning through online courses, books, and networking opportunities.</p>
+          </td>
+        </tr>
+      </table>
+                
+    <!-- UI/UX Designer Section -->
+      <table class="service-table">
+        <tr>
+          <td class="service-image">
+            <img src="Images/img ui.jpg" alt="UI/UX Designer">
+          </td>
+          <td class="service-description">
+            <h5 class="service-title">UI/UX Designer</h5> 
+              <p> Our UI/UX design service focuses on creating user-friendly and visually appealing interfaces. We ensure a seamless user experience across different devices and platforms.</p>
+          </td>
+        </tr>
+      </table>
+            
+      <!-- Artist Section -->
+      <table class="service-table">
+        <tr>
+            <td class="service-image">
+                <img src="Images/img illustrator.avif" alt="Illustrator">
+            </td>
+            <td class="service-description">
+                <h5 class="service-title">Illustrator</h5> 
+                <p>I harness a diverse array of design tools and techniques to produce striking visual artwork in the digital landscape. My work spans illustrations, 
+                  graphic designs, and digital paintings, all aimed at conveying meaningful messages and evoking emotions through compelling visuals. By merging creativity 
+                  with technical expertise, I create designs that captivate and inspire audiences, paying meticulous attention to detail and aesthetics in every piece I craft.</p>
+            </td>
+        </tr>
+      </table>
+      </div>
+        
+        <div class="skills-container">
+          <div id="skills" class="section">
+            <h3 class="skills-title"><strong>SKILLS & STRENGTHS</strong></h3>
+          <div class="container">
+  <!-- Python Skill -->
+        <div class="skill-container">
+          <h5 class="fw-light">Python</h5>
+        <div class="skillbar">
+          <span class="skill" data-width="65%"></span>
+        </div>
+      </div>
+      <!-- HTML Skill -->
+      <div class="skill-container">
+        <h5 class="fw-light">HTML</h5>
+        <div class="skillbar">
+          <span class="skill" data-width="80%"></span>
+        </div>
+      </div>
+      <!-- CSS Skill -->
+      <div class="skill-container">
+        <h5 class="fw-light">CSS</h5>
+        <div class="skillbar">
+          <span class="skill" data-width="75%"></span>
+        </div>
+      </div>
+      <!-- Bootstrap Skill -->
+      <div class="skill-container">
+        <h5 class="fw-light">Bootstrap</h5>
+        <div class="skillbar">
+          <span class="skill" data-width="70%"></span>
+        </div>
+      </div>
+      <!-- Java Skill -->
+      <div class="skill-container">
+        <h5 class="fw-light">Java</h5>
+        <div class="skillbar">
+          <span class="skill" data-width="70%"></span>
+        </div>
+      </div>
+    </div>
+
+    <script>// Select all the skill bars' spans
+const spans = document.querySelectorAll('.skillbar span');
+
+// Loop through each span and set its width and display percentage
+spans.forEach((span) => {
+    // Set the width of the span to the value of the 'data-width' attribute
+    const width = span.dataset.width;
+    span.style.width = width;
+
+    // Optionally, you can add the percentage text inside the span
+    span.textContent = width; // Use textContent to add the percentage text
+});</script>
+            <!-- Quote Slider -->
+<h1>Quotes</h1>
+<div class="slideshow-container">
+  <div class="mySlides">
+    <q>“I never just envisioned success; I put in the effort to achieve it.” </q>
+    <p class="author">-  Estée Lauder</p>
+  </div>
+  <div class="mySlides">
+    <q>“Success necessitates taking action and having a robust work ethic.”</q>
+    <p class="author">- Vince Lombardi </p>
+  </div>
+  <div class="mySlides">
+    <q>“The most effective way to learn is through experience. The only way to develop a strong work ethic is by actively engaging in the work.” </q>
+    <p class="author">- Alex Spanos</p>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!-- Dots/bullets/indicators -->
+ <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+ </div>
+</div>
+<script>let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Auto slide every 5 seconds
+  setInterval(function() {
+    plusSlides(1); // Move to the next slide every 5 seconds
+  }, 5000);
+  
+  // Function to go to the next or previous slide
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Function to display the slide
+  function showSlides(n) {
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+  
+    // Loop through slides to ensure it stays within bounds
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+  
+    // Hide all slides
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+  
+    // Remove the 'active' class from all dots
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  
+    // Display the current slide
+    slides[slideIndex - 1].style.display = "block";  
+  
+    // Activate the current dot
+    dots[slideIndex - 1].className += " active";
+  }</script>
+  <script src="js/main.js"></script>
+  
+
+  <section id="Resume" class="py-5 bg-light">
+  <div id="resume" class="resume-container">
+    <section class="resume">
+      <h1><strong>RESUME</strong></h1>
+  <section class="timeline">
+    <h2  >EDUCATIONAL BACKGROUND</h2>
+    <ul >
+      <li>
+        <div class="timeline-item">
+          <h3>Guina-ang Elementary School</h3>
+          <p class="details"> Bontoc,Mountain Province <br>
+          2005-2013</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-item">
+          <h3> Guina-ang National High School</h3>
+          <p class="details">Junior High School <br>
+          ,Mountain Province <br>
+          2013-2017</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-item">
+          <h3>Mountain Province General Comprehensive High School</h3>
+          <p class="details">Senior High School <br>
+          STRAND:GAS <br>
+          Mountain Province<br>
+          2017-2019</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-item">
+          <h3>Mountain Province State University</h3>
+          <p class="details">Poblacion, Bontoc, Mountain Province <br>
+            Bachelor of Science in Information Technology <br>
+          2022-2026</p>
+        </div>
+      </li>
+    </ul>
+    
+  </section>
+</section>
+
+
+<!-- PROJECTS -->
+<div class="text-center mb-4">
+  <button class="btn btn-primary filter-btn" data-category="all">All</button>
+  <button class="btn btn-secondary filter-btn" data-category="dept">Department</button>
+  <button class="btn btn-success filter-btn" data-category="extra">Extra Curicullars</button>
+</div>
+<div class="card-dept" data-category="dept">
+  <img src="Images/img5.webp" class="card-img-top" alt="Project Image">
+  <div class="card-body">
+    <h1 class="card-text" style="font-size: 15px; letter-spacing: 0px;"> Animator Certified</h1>
+    <p>Validates skills in software tools like After Effects or Animate for animation and motion graphics design.     </p>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-adobe">View Details</button>
+  </div>
+</div>
+
+<div class="card-container row g-4">
+<div class="card-dept" data-category="dept">
+  <img src="Images/BLScert.jpg" class="card-img-top" alt="Project Image">
+  <div class="card-body">
+    <h1 class="card-text" style="font-size: 5px; letter-spacing: 0px;"> Basic Life Support Certification</h1>
+    <p>A type of medical care administered to patients facing life-threatening situations, such as cardiac arrest, until they can be transferred to
+       advanced life support providers, including paramedics, nurses, physicians, or other trained individuals for full medical treatment.</p>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-bls">View Details</button>
+  </div>
+</div>
+
+<div class="card-dept" data-category="extra">
+  <img src="Images/image4.jpg" class="card-img-top" alt="Project Image">
+  <div class="card-body">
+    <h1 class="card-text" style="font-size: 15px; letter-spacing: 0px;"> Award  </h1>
+    <p>Given to exemplary atlethes that is the most valuable player of the sports event.</p>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-sports">View Details</button>
+  </div>
+</div>
+
+<!-- Portfolio -->
+<section id="Portfolio" class="py-5 bg-light">
+  <div id="Portfolio" class="resume-container">
+    <section class="Portfolio">
+<div class="portfolio">
+  <h1 class="text-center mt-4">MY PORTFOLIO</h1>
+  <p class="text-center">Welcome,Enjoy Browsing! </p>
+
+      <div class="text-center mb-4">
+        <button class="btn btn-primary filter-btn" data-category="all">All</button>
+        <button class="btn btn-secondary filter-btn" data-category="website">Websites</button>
+        <button class="btn btn-success filter-btn" data-category="apps">Applications</button>
+        <button class="btn btn-info filter-btn" data-category="games">Games</button>
+      </div>
+
+<div class="card-container row g-4">
+  <div class="card-game" data-category="games">
+    <img src="Images/cocimg.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Clash of Clans</h1>
+      <p>An online multiplayer strategy game published by Supercell.You can build your own  community, train troops and attack other players. You can join a clan of players or start your own clan and invite friends. You can interact with other players through in-game messaging and voice chat.   
+
+      </p>
+      <p>Role: Front-end developer</p>
+      <p>Unity3D, Swift, C#, Java</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-5">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-websites" data-category="website">
+    <img src="Images/Sspaceimg.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text"> Square Space </h1>
+      <p>A modern, responsive website for a creative studio showcasing portfolios, services, and client testimonials.</p>
+      <p>Role: Lead front-end developer</p>
+      <p>HTML5, CSS, JavaScript, Bootstrap, Adobe XD, GitHub</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-game" data-category="games">
+    <img src="Images/ml img.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Mobile Legends</h1>
+      <p>Mobile Legends: Bang Bang is a multiplayer online battle arena (MOBA) game designed for mobile phones. The game is free-to-play and is only monetized through in-game purchases like characters and skins. Each player can control a selectable character, called a Hero, with unique abilities and traits.</p>
+      <p>Role: Back-end developer</p>
+      <p>C, C++, </p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-4">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-application" data-category="apps">
+    <img src="Images/bili img.webp" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">BiliBili</h1>
+      <p>Bilibili is a Chinese online entertainment platform that is best known for its video-sharing site that resembles YouTube. </p>
+      <p>Role:focused on UI and playlist management.</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-8">View Details</button>
+    </div>
+  </div>
+
+<!-- portMOD -->
+<div class="modal fade" id="modal-1" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Square Space Website</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/website.png" class="img-fluid" alt="Square Space Website Image">
+      <h1>Square Space</h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Square Space Website</a>
+      </div>      
+      <hr>
+        <h5>Description:</h5>
+        <p>Square Space is a responsive and visually appealing website designed for a creative studio. It showcases the studio's portfolio, services, and client testimonials. The website features a modern, minimalist design with smooth animations and an intuitive user interface. Key components of the site include image galleries, a contact form, and a blog section to share updates.</p>
+        <h5>Role in the Project:</h5>
+        <p>As the lead front-end developer, I was responsible for creating the overall layout, implementing the user interface design, and ensuring that the website is responsive across different devices. I worked closely with the UI/UX designer to bring the creative vision to life and integrated dynamic features such as image galleries and forms.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          HTML5: For structuring the content of the website. <br>
+          CSS3: For styling and making the website responsive, ensuring a mobile-first approach. <br>
+          JavaScript (Vanilla JS): Used for creating interactive features like image sliders and form validations. <br>
+          Bootstrap: Utilized for responsive grid layouts and component styles. <br>
+          jQuery: For smooth animations and additional interactivity on the site. <br>
+          Adobe XD: For design mockups and collaborating with the design team. <br>
+          GitHub: For version control and collaborative development.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<script>
+document.addEventListener("DOMContentLoaded", function () { 
+  const filterButtons = document.querySelectorAll(".filter-btn"); 
+  const cards = document.querySelectorAll(".card-container > div"); 
+ 
+  filterButtons.forEach((button) => { 
+    button.addEventListener("click", () => { 
+      const category = button.getAttribute("data-category"); 
+ 
+      cards.forEach((card) => { 
+        if (category === "all" || card.getAttribute("data-category") === category) { 
+          card.style.display = "block"; 
+        } else { 
+          card.style.display = "none";   
+        } 
+      }); 
+    }); 
+  }); 
+});
+</script> 
+
+<!-- Services -->
+<section id="Service" class="py-5 bg-light">
+  <div class="container text-center">
+    <section class="Service">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-12 text-center mb-4">
+              <div class="service-title">
+                  <h1>My SERVICES</h1>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                  <div class="service-icon">
+                      <i class="fas fa-layer-group"></i>
+                  </div>
+                  <h4>Web Application</h4>
+                  <p> enables users to interact with the content and perform specific tasks.</p>
+                  <a href="#">Read More</a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                  <div class="service-icon">
+                      <i class="far fa-chart-bar"></i>
+                  </div>
+                  <h4>Highly customizable</h4>
+                  <p>As a provider of a highly customizable service, I understand the importance of tailoring my offerings to meet the unique needs and preferences of each client.
+                     My service is designed to be flexible and adaptable, allowing me to work closely with clients to create a personalized experience that exceeds their expectations....</p>
+                  <a href="#">Read More</a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                  <div class="service-icon">
+                      <i class="fas fa-database"></i>
+                  </div>
+                  <h4>Responsive design</h4>
+                  <p> Focuses on creating websites that adapt fluidly to different screen sizes and resolutions...</p>
+                  <a href="#">Read More</a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                  <div class="service-icon">
+                      <i class="fas fa-cogs"></i>
+                  </div>
+                  <h4>Service & Plugins</h4>
+                  <p>a robust online presence requires not just a well-designed website but also the right tools to enhance its functionality....</p>
+                  <a href="#">Read More</a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                  <div class="service-icon">
+                      <i class="fas fa-chart-pie"></i>
+                  </div>
+                  <h4>Optimised for speed</h4>
+                  <p>...</p>
+                  <a href="#">Read More</a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center mb-3">
+              <div class="service-wrap">
+                  <div class="service-icon">
+                      <i class="fas fa-thumbs-up"></i>
+                  </div>
+                  <h4>Dedicated support</h4>
+                  <p>...</p>
+                  <a href="#">Read More</a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+</div>
+</section>
+
+<button class="accordion">Offer</button>
+<div class="panel">
+<p>All websites are built to be fully responsive, ensuring they look and function beautifully on desktops, tablets, and mobile devices....</p>
+</div>
+
+<button class="accordion">Achievements</button>
+<div class="panel">
+<p>...</p>
+</div>
+
+<button class="accordion">Interest</button>
+<div class="panel">
+<p>Mastering various programming languages such as HTML, CSS, JavaScript, Python,...</p>
+</div> 
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  
+</script>
+
+
+<!-- Contact Section -->
+<section id="Contact" class="py-5 bg-light">
+  <div class="container text-center">
+    <section class="Contact">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <form id="contactForm">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+    
+        <footer class="text-center py-4">
+            <p>&copy; 2023 My Portfolio. All Rights Reserved.</p>
+        </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
